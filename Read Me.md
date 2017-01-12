@@ -10,17 +10,17 @@ The LineFactory class is responsible for creating and retrieving lines.
 
 The main property:
 
-publicÿintÿmaxLines
+public int maxLines
 
 The LineFactory Instantiates this many lines at runtime. The lines are disabled and only activated when a line is requested by the user. This number is the maximum number of lines that can be retrieved from this factory. If a number of lines greater than this number is requested, then previous lines are overwritten; so it is important to set the correct number here.
 
 The main methods:
 
-publicÿLineÿGetLineÿ(Vector2ÿstart,ÿVector2ÿend,ÿfloatÿwidth,ÿColorÿcolor) 
+public Line GetLine (Vector2 start, Vector2 end, float width, Color color) 
 
 Initialises and activates a line with the specified data.
 
-publicÿList<Line>ÿGetActive() 
+public List<Line> GetActive() 
 
 Returns a list of active lines.
 
