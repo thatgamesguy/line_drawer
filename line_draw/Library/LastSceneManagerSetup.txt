@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/LineDraw/Demo.unity
+- path: Assets/LineDraw/_Demo/Demo.unity
   isLoaded: 1
   isActive: 1
